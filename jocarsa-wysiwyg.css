@@ -1,0 +1,66 @@
+.jocarsa-wysiwyg-contenedor{
+	border:1px solid lightgrey;
+	background:white;
+	margin-bottom:20px;
+	font-family:Arial,sans-serif;
+}
+
+.jocarsa-wysiwyg-textarea-oculto{
+	display:none;
+}
+
+.jocarsa-wysiwyg-barra{
+	display:flex;
+	align-items:center;
+	gap:8px;
+	padding:10px;
+	border-bottom:1px solid lightgrey;
+	background:rgb(248,248,248);
+	flex-wrap:wrap;
+}
+
+.jocarsa-wysiwyg-barra button,
+.jocarsa-wysiwyg-barra select{
+	padding:6px 10px;
+	border:1px solid lightgrey;
+	background:white;
+	cursor:pointer;
+	font-size:14px;
+}
+
+.jocarsa-wysiwyg-barra button:hover,
+.jocarsa-wysiwyg-barra select:hover{
+	background:rgb(240,240,240);
+}
+
+.jocarsa-wysiwyg-separador{
+	width:1px;
+	height:24px;
+	background:lightgrey;
+}
+
+.jocarsa-wysiwyg-editor{
+	min-height:250px;
+	padding:20px;
+	outline:none;
+	overflow:auto;
+}
+
+.jocarsa-wysiwyg-editor:focus{
+	background:rgb(255,255,252);
+}
+
+.jocarsa-wysiwyg-editor h1,
+.jocarsa-wysiwyg-editor h2,
+.jocarsa-wysiwyg-editor h3,
+.jocarsa-wysiwyg-editor h4,
+.jocarsa-wysiwyg-editor h5,
+.jocarsa-wysiwyg-editor h6{
+	margin-top:0.6em;
+	margin-bottom:0.4em;
+}
+
+.jocarsa-wysiwyg-editor p{
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+}
